@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>info</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* Header Section */
+        header {
+            background: url('bg3.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 3em 1em;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        header p {
+            font-size: 1.2rem;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #0056b3;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        nav a:hover {
+            background: #003f7f;
+        }
+
+        /* About Section */
+        .about-container {
+            padding: 40px 20px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 1000px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .about-container h2 {
+            font-size: 2rem;
+            margin-bottom: 1em;
+            color: #007BFF;
+            text-align: center;
+        }
+        .about-container .info, .about-container .reflection {
+            margin-bottom: 20px;
+        }
+        .about-container .info h3, .about-container .reflection h3 {
+            color: #0056b3;
+            margin-bottom: 10px;
+        }
+        .about-container p {
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        /* Footer Section */
+        footer {
+            background: #0056b3;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            header p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>TutorHTML</h1>
+        <p>Get to know more about the creator and their experience</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="ces.html">Home</a>
+        <a href="#about">About Us</a>
+    </nav>
+
+    <!-- About Section -->
+    <div class="about-container">
+        <h2>About the Creator</h2>
+        
+        <div class="info">
+            <h3>Personal Information</h3>
+            <p><strong>Name:</strong>Princess Rain T. Dela Buena</p>
+            <p><strong>Birth Date:</strong> March 19, 2007</p>
+            <p><strong>Location:</strong> Delpan Manila, Philippines </p>
+            <p><strong>Hobbies:</strong> Watching Movies</p>
+        </div>
+        
+        <div class="reflection">
+            <h3>Reflection</h3>
+            <p>
+                Creating this website has been a rewarding journey filled with challenges and learning experiences. 
+                As someone passionate about teaching HTML and web development, designing this platform was an opportunity to merge creativity with functionality. 
+                Each step, from crafting a user-friendly interface to implementing interactive features, taught me the importance of attention to detail and usability.
+            </p>
+           
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 TutorHTML | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
